@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahamed Rashid - Resume and Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-<nav>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="index.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-
-        <!-- Add more href links as needed but must create more html too!!-->
-
-    </ul>
-</nav>
-
+<script>
+    $(document).ready(function(){
+      $("navbtn").click(function(){
+        $(this).toggle(active);
+      });
+    });
+    </script>
 <body>
-    <header>
-        <h1>Contact me!</h1>
-    </header><br>
-
-    <body>
+    <nav>
+        <a class="navbtn" id="home" href="home.html">Home</a>
+        <a class="navbtn" id="portfolio" href="portfolio.html">Portfolio</a>
+        <a class="navbtn" id="resume" href="index.html">Resume</a>
+        <a class="navbtn" id="contact" href="contact.html">Contact</a>
+    
+        <!-- Add more href links as needed but must create more html too!!-->
+    </nav>
+        <header>
+            <h1>Contact me!</h1>
+        </header><br>
+    
         <header>
             <h1>Ahamed Rashid</h1>
             <address>
@@ -35,3 +37,6 @@
     
             </address>
         </header>
+</body>
+
+<!-- Comment -->

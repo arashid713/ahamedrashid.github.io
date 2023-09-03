@@ -68,3 +68,62 @@ a {
 }
 
 /* Add more styles as needed */
+nav
+{
+    text-align: right;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbtn
+{
+    font-size: 40px;
+    padding: 20px;
+}
+/* 
+.navbtn:hover
+{
+    background-color:yellow;
+    color:red;
+    transition: 1s;
+}
+.navbtn:active
+{
+    background-color:green;
+}
+*/
+
+.maindiv
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+
+.introP
+{
+    font-size: 30px;
+}
+
+.intro
+{
+    margin-top: 15%;
+}
+.resumebtn
+{
+    text-align: center;
+}
+.button2 {
+    padding: 1%;
+    font-size: 50px;
+    color: black; 
+  }
+  
+  .button2:hover {
+    transition: 1s;
+    background-color: #008CBA;
+    color: white;
+  }
+  
